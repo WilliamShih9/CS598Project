@@ -14,7 +14,9 @@ I also used "rvest_1.0.2" with R to download the most recent Wikipedia articles 
 
 Before running the program, you need to apply for [MIMIC-III](https://mimic.physionet.org/gettingstarted/access/) dataset and put two files "NOTEEVENTS.csv.gz" and "DIAGNOSES_ICD.csv.gz" under the same folder of the project.
 
-Once you get these two files, run preprocessing scripts "preprocessing0.py", "preprocessing1.py", "preprocessing2.py", and "preprocessing3.py" in order. Note that I originally implemented this on Google Colab so that so code might be modified in order to run it properly using the python files that were drived from the .ipynb files. The .ipynb files can be found in the IPYNB folder and the .py files can be found in the PY folder. When running the code, move either all the PY files or all the IPYNB files in the same folder where "NOTEEVENTS.csv.gz", "DIAGNOSES_ICD.csv.gz", "IDList.npy", "wikipedia_knowledge", and "wikipedia_knowledge_new" is stored.
+Once you get these two files, run preprocessing scripts "preprocessing0.py", "preprocessing1.py", "preprocessing2.py", and "preprocessing3.py" in order. Note that I originally implemented this on Google Colab so that so code might be modified in order to run it properly using the python files that were drived from the .ipynb files. The code to mount on Google Drive should be removed when running locally.
+
+The .ipynb files can be found in the IPYNB folder and the .py files can be found in the PY folder. When running the code, move either all the PY files or all the IPYNB files in the same folder where "NOTEEVENTS.csv.gz", "DIAGNOSES_ICD.csv.gz", "IDList.npy", "wikipedia_knowledge", and "wikipedia_knowledge_new" is stored.
 
 Splitting off from there, the new Wikipedia data can be implemented using "preprocessing2_new.ipy" and "preprocessing3_new.py" in order (since the "preprocessing0.py" and "preprocessing1.py" do not involve Wikipedia data at all yet).
 
