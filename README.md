@@ -19,3 +19,5 @@ Once you get these two files, run preprocessing scripts "preprocessing0.py", "pr
 Splitting off from there, the new Wikipedia data can be implemented using "preprocessing2_new.ipy" and "preprocessing3_new.py" in order (since the "preprocessing0.py" and "preprocessing1.py" do not involve Wikipedia data at all yet).
 
 After running three preprocessing files, you can run any of four models ("KSI_LSTM.py", "KSI_LSTMatt.py", "KSI_CNN.py", "KSI_CAML.py") to see how much improvement KSI framework brings to the specific model. Any of the four models using the new Wikipedia knowledge can be run using ("KSI_LSTM_new.py", "KSI_LSTMatt_new.py", "KSI_CNN_new.py", "KSI_CAML_new.py"). 
+
+Finally, "Results.csv" is a copy paste from the performance numbers in the .ipynb files. "CreateTables.R" creates latex tables from the results in the "Results.csv" file.
