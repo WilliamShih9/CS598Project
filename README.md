@@ -1,15 +1,19 @@
 # KSI framework
-This repository contains codes for Knowledge Source Intergration (KSI) framework in the paper
-* **Bai, T., Vucetic, S., Improving Medical Code Prediction from Clinical Text via Incorporating Online Knowledge Sources, The Web Conference (WWW'19), 2019.**
+This repository contains codes for Knowledge Source Intergration (KSI) framework in the paper. This project is a reproduction of the results presented in the paper
+* **Bai, T., Vucetic, S., Improving Medical Code Prediction from Clinical Text via Incorporating Online Knowledge Sources, The Web Conference (WWW'19), 2019.** as well as an idea of implementing the most up to date Wikipedia articles.
 
-I used the following environment for the implementation:
-* python==3.7.0
-* torch==0.4.1
-* numpy==1.15.1
-* sklearn==0.19.2
+I used the following Python environment for the implementation:
+* Python 3.10.11
+* torch==2.0.0+cu118
+* numpy==1.22.4
+* sklearn==1.2.2
 
-Before running the program, you need to apply for [MIMIC-III](https://mimic.physionet.org/gettingstarted/access/) dataset and put two files "NOTEEVENTS.csv" and "DIAGNOSES_ICD.csv" under the same folder of the project.
+I also used "rvest_1.0.2" with R to download the most recent Wikipedia articles from the internet. The file for this is "updatewikipedia.R". The Wikipedia articles are up to date as of May 1, 2023 with the "wikipedia_knowledge_new" file. This is about 4 years newer than the original Wikipedia file, which is "wikipedia_knowledge".
 
-Once you get these two files, run preprocessing scripts "preprocessing1.py", "preprocessing2.py", "preprocessing3.py" in order.
+Before running the program, you need to apply for [MIMIC-III](https://mimic.physionet.org/gettingstarted/access/) dataset and put two files "NOTEEVENTS.csv.gz" and "DIAGNOSES_ICD.csv.gz" under the same folder of the project.
 
-After running three preprocessing files, you can run any of four models ("KSI_LSTM.py", "KSI_LSTMatt.py", "KSI_CNN.py", "KSI_CAML.py") to see how much improvement KSI framework brings to the specific model.
+Once you get these two files, run preprocessing scripts "preprocessing0.py", "preprocessing1.py", "preprocessing2.py", and "preprocessing3.py" in order. Note that I originally implemented this on Google Colab so that so code might be modified in order to run it properly using the python files that were drived from the .ipynb files. The .ipynb files can be found in the IPYNB folder and the .py files can be found in the PY folder.
+
+Splitting off from there, the new Wikipedia data can be implemented using "preprocessing2_new.ipy" and "preprocessing3_new.py" in order (since the "preprocessing0.py" and "preprocessing1.py" do not involve Wikipedia data at all yet).
+
+After running three preprocessing files, you can run any of four models ("KSI_LSTM.py", "KSI_LSTMatt.py", "KSI_CNN.py", "KSI_CAML.py") to see how much improvement KSI framework brings to the specific model. Any of the four models using the new Wikipedia knowledge can be run using ("KSI_LSTM_new.py", "KSI_LSTMatt_new.py", "KSI_CNN_new.py", "KSI_CAML_new.py"). 
