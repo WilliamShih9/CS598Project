@@ -1,0 +1,96 @@
+﻿CAML,test loss ,New,0.033108745
+CAML,top- 10,New,0.803775634
+CAML,macro AUC ,New,0.859022533
+CAML,micro AUC ,New,0.977347583
+CAML,macro F1 ,New,0.250238616
+CAML,micro F1 ,New,0.655127291
+KSI+CAML,test loss ,New,0.032171942
+KSI+CAML,top- 10,New,0.811831079
+KSI+CAML,macro AUC ,New,0.893494377
+KSI+CAML,micro AUC ,New,0.979764175
+KSI+CAML,macro F1 ,New,0.272869844
+KSI+CAML,micro F1 ,New,0.662011352
+CNN,test loss ,New,0.03858439
+CNN,top- 10,New,0.749095058
+CNN,macro AUC ,New,0.834334819
+CNN,micro AUC ,New,0.966472929
+CNN,macro F1 ,New,0.204553807
+CNN,micro F1 ,New,0.625853813
+KSI+CNN,test loss ,New,0.03622847
+KSI+CNN,top- 10,New,0.781618528
+KSI+CNN,macro AUC ,New,0.872739037
+KSI+CNN,micro AUC ,New,0.974011925
+KSI+CNN,macro F1 ,New,0.251986574
+KSI+CNN,micro F1 ,New,0.643449766
+LSTM,test loss ,New,0.03413242
+LSTM,top- 10,New,0.766184957
+LSTM,macro AUC ,New,0.843947899
+LSTM,micro AUC ,New,0.970038072
+LSTM,macro F1 ,New,0.197048137
+LSTM,micro F1 ,New,0.646706017
+KSI+LSTM,test loss ,New,0.03118861
+KSI+LSTM,top- 10,New,0.795110375
+KSI+LSTM,macro AUC ,New,0.884916637
+KSI+LSTM,micro AUC ,New,0.977214788
+KSI+LSTM,macro F1 ,New,0.255490626
+KSI+LSTM,micro F1 ,New,0.660263498
+LSTMatt,test loss ,New,0.03530638
+LSTMatt,top- 10,New,0.791735546
+LSTMatt,macro AUC ,New,0.848899467
+LSTMatt,micro AUC ,New,0.974147337
+LSTMatt,macro F1 ,New,0.255859007
+LSTMatt,micro F1 ,New,0.649327339
+KSI+LSTMatt,test loss ,New,0.03263728
+KSI+LSTMatt,top- 10,New,0.805001596
+KSI+LSTMatt,macro AUC ,New,0.888901502
+KSI+LSTMatt,micro AUC ,New,0.977834621
+KSI+LSTMatt,macro F1 ,New,0.290166553
+KSI+LSTMatt,micro F1 ,New,0.663624312
+CAML,test loss ,Original,0.032890905
+CAML,top- 10,Original,0.806348341
+CAML,macro AUC ,Original,0.85624984
+CAML,micro AUC ,Original,0.977386407
+CAML,macro F1 ,Original,0.261778426
+CAML,micro F1 ,Original,0.655635483
+KSI+CAML,test loss ,Original,0.03191529
+KSI+CAML,top- 10,Original,0.814677265
+KSI+CAML,macro AUC ,Original,0.891067674
+KSI+CAML,micro AUC ,Original,0.979865981
+KSI+CAML,macro F1 ,Original,0.29095993
+KSI+CAML,micro F1 ,Original,0.662370499
+CNN,test loss ,Original,0.0390628
+CNN,top- 10,Original,0.751147572
+CNN,macro AUC ,Original,0.836017318
+CNN,micro AUC ,Original,0.966574658
+CNN,macro F1 ,Original,0.213024796
+CNN,micro F1 ,Original,0.623908734
+KSI+CNN,test loss ,Original,0.036221217
+KSI+CNN,top- 10,Original,0.777958351
+KSI+CNN,macro AUC ,Original,0.871751313
+KSI+CNN,micro AUC ,Original,0.973437229
+KSI+CNN,macro F1 ,Original,0.246257175
+KSI+CNN,micro F1 ,Original,0.643082799
+LSTM,test loss ,Original,0.03413242
+LSTM,top- 10,Original,0.766184957
+LSTM,macro AUC ,Original,0.843947899
+LSTM,micro AUC ,Original,0.970038072
+LSTM,macro F1 ,Original,0.197048137
+LSTM,micro F1 ,Original,0.646706017
+KSI+LSTM,test loss ,Original,0.031170726
+KSI+LSTM,top- 10,Original,0.797020997
+KSI+LSTM,macro AUC ,Original,0.885215704
+KSI+LSTM,micro AUC ,Original,0.977377119
+KSI+LSTM,macro F1 ,Original,0.263623357
+KSI+LSTM,micro F1 ,Original,0.662093201
+LSTMatt,test loss ,Original,0.03530638
+LSTMatt,top- 10,Original,0.791735546
+LSTMatt,macro AUC ,Original,0.848899467
+LSTMatt,micro AUC ,Original,0.974147337
+LSTMatt,macro F1 ,Original,0.255859007
+LSTMatt,micro F1 ,Original,0.649327339
+KSI+LSTMatt,test loss ,Original,0.03246735
+KSI+LSTMatt,top- 10,Original,0.804563157
+KSI+LSTMatt,macro AUC ,Original,0.887994199
+KSI+LSTMatt,micro AUC ,Original,0.977867708
+KSI+LSTMatt,macro F1 ,Original,0.29518677
+KSI+LSTMatt,micro F1 ,Original,0.664674606
