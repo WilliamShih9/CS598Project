@@ -4,6 +4,13 @@ This project is a reproduction of the results presented in the paper
 
 as well as an idea of implementing the most up to date Wikipedia articles.
 
+## Links
+
+- [Link to original GitHub repository](https://github.com/tiantiantu/KSI)
+- [Link to original paper](https://dl.acm.org/doi/10.1145/3308558.3313485)
+
+## Environment
+
 I used the following Python environment for the implementation:
 * Python 3.10.11
 * torch==2.0.0+cu118
@@ -11,6 +18,8 @@ I used the following Python environment for the implementation:
 * sklearn==1.2.2
 
 I also used "rvest_1.0.2" with R to download the most recent Wikipedia articles from the internet. The file for this is "updatewikipedia.R". The Wikipedia articles are up to date as of May 1, 2023 with the "wikipedia_knowledge_new" file. This is about 4 years newer than the original Wikipedia file, which is "wikipedia_knowledge".
+
+## How to Run
 
 Before running the program, you need to apply for [MIMIC-III](https://mimic.physionet.org/gettingstarted/access/) dataset and put two files "NOTEEVENTS.csv.gz" and "DIAGNOSES_ICD.csv.gz" under the same folder of the project.
 
