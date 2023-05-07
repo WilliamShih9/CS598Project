@@ -1,7 +1,3 @@
-
-
-
-
 data = read.csv("Results.csv", header = FALSE)
 colnames(data) = c("Method", "Measure", "Wiki", "Number")
 
@@ -24,8 +20,8 @@ for(i in c(0:7)){
     data$Method[(i*12+1):(i*12+6)] 
   improvement$Measure[(i*6+1):(i*6+6)] = 
     data$Measure[(i*12+1):(i*12+6)] 
-  improvement$Type[(i*6+1):(i*6+6)] = 
-    data$Type[(i*12+1):(i*12+6)] 
+  improvement$Wiki[(i*6+1):(i*6+6)] = 
+    data$Wiki[(i*12+1):(i*12+6)] 
 }
 
 
@@ -40,4 +36,3 @@ xtable(data_wider, digits = 3, type = "latex",
 
 xtable(improvement_wider, digits = 3, type = "latex",
        caption = "Improvement of Models with KSI framework using New vs Original Wikipedia")
-
