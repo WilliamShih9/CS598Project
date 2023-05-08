@@ -29,6 +29,8 @@ The .ipynb files can be found in the IPYNB folder and the .py files can be found
 
 Splitting off from there, the new Wikipedia data can be implemented using "preprocessing2_new.ipy" and "preprocessing3_new.py" in order (since the "preprocessing0.py" and "preprocessing1.py" do not involve Wikipedia data at all yet).
 
-After running three preprocessing files, you can run any of four models ("KSI_LSTM.py", "KSI_LSTMatt.py", "KSI_CNN.py", "KSI_CAML.py") to see how much improvement KSI framework brings to the specific model. Any of the four models using the new Wikipedia knowledge can be run using ("KSI_LSTM_new.py", "KSI_LSTMatt_new.py", "KSI_CNN_new.py", "KSI_CAML_new.py"). 
+After running three preprocessing files, you can run the four models ("KSI_LSTM.py", "KSI_LSTMatt.py", "KSI_CNN.py", "KSI_CAML.py") to see how much improvement KSI framework brings to the specific model. Any of the four models using the new Wikipedia knowledge can be run using ("KSI_LSTM_new.py", "KSI_LSTMatt_new.py", "KSI_CNN_new.py", "KSI_CAML_new.py"). 
+
+Figure 3 in the original paper provides evidence that the KSI frameworks provides more improvement for rarer codes and less improvement for common codes. Figure 3's data can be replicated with "ReplicateFigure3.ipynb" and "ReplicateFigure3.py". I also replicate Figure 3 using the new Wikipedia data as well with "ReplicateFigure3_new.ipynb" and "ReplicateFigure3_new.py"
 
 Finally, "Results.csv" is a copy paste from the performance numbers in the .ipynb files. "CreateTables.R" creates latex tables from the results in the "Results.csv" file.
