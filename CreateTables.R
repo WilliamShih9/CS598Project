@@ -30,9 +30,13 @@ data_wider = data %>%
 improvement_wider = improvement %>%
   pivot_wider(names_from = Measure, values_from = Improvement)
 
+name = c("Method", "Wiki", "Test loss", "Top-10 recall", "Macro AUC", "Micro AUC", "Macro F1", "Micro F1")
+names(data_wider) = name
+names(improvement_wider) = name
 
 xtable(data_wider, digits = 3, type = "latex",
        caption = "Performance of Models with and without KSI framework and New/Original Wikipedia")
 
-xtable(improvement_wider, digits = 3, type = "latex",
+xtable(improvement_wider, digits = 4, type = "latex",
        caption = "Improvement of Models with KSI framework using New vs Original Wikipedia")
+
