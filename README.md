@@ -2,7 +2,7 @@
 This project is a reproduction of the results presented in the paper
 * **Bai, T., Vucetic, S., Improving Medical Code Prediction from Clinical Text via Incorporating Online Knowledge Sources, The Web Conference (WWW'19), 2019.**
 
-as well as an idea of implementing the most up to date Wikipedia articles. Table 4 and Figure 3 from the original paper are attempted to be replicated with this project.
+as well as an idea of implementing the most up to date Wikipedia articles. Table 4 and Figure 3 from the original paper are attempted to be replicated with this project. The trained parameters (pre-trained) of the best model "KSI_CAML" is provided here.
 
 ## Links
 
